@@ -1,0 +1,229 @@
+body,
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: cabinetmedium;
+    src: url(../fonts/CabinetGrotesk-Medium.otf);
+}
+
+.cabinetmedium {
+    font-family: cabinetmedium;
+}
+
+@font-face {
+    font-family: cabinetbold;
+    src: url(../fonts/CabinetGrotesk-Bold.otf);
+}
+
+.cabinetbold {
+    font-family: cabinetbold;
+}
+
+@font-face {
+    font-family: cabinetextrabold;
+    src: url(../fonts/CabinetGrotesk-Extrabold.otf);
+}
+
+.cabinetextrabold {
+    font-family: cabinetextrabold;
+}
+
+@font-face {
+    font-family: satoshibold;
+    src: url(../fonts/Satoshi-Bold.otf);
+}
+
+.satoshibold {
+    font-family: satoshibold;
+}
+
+@font-face {
+    font-family: satoshiregular;
+    src: url(../fonts/Satoshi-Regular.otf);
+}
+
+.satoshiregular {
+    font-family: satoshiregular;
+}
+
+@font-face {
+    font-family: satoshimedium;
+    src: url(../fonts/Satoshi-Medium.otf);
+}
+
+.satoshimedium {
+    font-family: satoshimedium;
+}
+
+
+/* .body-padding {
+    padding: clamp(25px, 3.4375vw, 80px);
+} */
+
+.text-hero {
+    font-size: clamp(1px, 12.5vw + 2px, 240px);
+    /* Responsive text size */
+}
+
+.hero-asset {
+    width: clamp(28px, 11vw, 161px);
+    /* Recalculated for appropriate size */
+    height: clamp(28px, 11vw, 161px);
+    /* Maintain square aspect ratio */
+}
+
+.hero-gap {
+    gap: clamp(5px, 1.56vw + 2px, 30px);
+    /* Responsive gap size */
+}
+
+.hero-bodytext {
+    font-size: clamp(9.5px, 1.3vw, 26px);
+    /* Scales between 9.5px and 26px */
+    line-height: clamp(14px, 2.2vw, 40px);
+    /* Scales between 14px and 40px */
+}
+
+.line-svg {
+    width: clamp(5px, 0.9vw, 11px);
+    /* Scales between 5px and 11px */
+    height: clamp(37px, 6vw, 100px);
+    /* Scales between 37px and 100px */
+}
+
+.sline-svg {
+    width: clamp(4px, 1.5vw, 8px);
+    /* SVG responsive width */
+    height: clamp(29px, 4vw, 61px);
+    /* SVG responsive height */
+}
+
+.sline-text {
+    font-size: clamp(10px, 1.2vw, 22px);
+    /* Responsive text size for "Why Nova" */
+
+}
+
+.whynova-body {
+    font-size: clamp(18px, 3.5vw, 76px);
+    /* Responsive text size for main content */
+    line-height: clamp(24px, 5vw, 100px);
+    /* Responsive line height */
+}
+
+.lablebox-text {
+    font-size: clamp(13.5px, 2.93vw, 56px);
+    white-space: nowrap;
+}
+
+/* Box Styling */
+.lable-shadowbox {
+    padding: clamp(3px, 1vw, 12px) clamp(7px, 1.8vw, 30px);
+    box-shadow: clamp(7px, 1.5vw, 30px) clamp(5px, 1vw, 20px) rgba(14, 16, 15, 0.3);
+    border-radius: clamp(3px, 1vw, 10px);
+    /* Responsive border-radius */
+    display: inline-block;
+}
+
+.lable-box {
+    padding: clamp(3px, 1vw, 12px) clamp(7px, 1.8vw, 30px);
+    border-radius: clamp(3px, 1vw, 10px);
+    /* Responsive border-radius */
+    display: inline-block;
+    z-index: -1000;
+}
+
+.project-asset {
+    width: clamp(45px, 11vw, 190px);
+    /* Recalculated for appropriate size */
+    height: clamp(45px, 11vw, 190px);
+    /* Maintain square aspect ratio */
+}
+
+/* service section */
+
+.responsive-text {
+    font-size: clamp(27px, 5vw, 160px);
+    /* Responsive text size */
+    line-height: clamp(27px, 5vw, 160px);
+    /* Responsive line height */
+    display: flex;
+    align-items: center;
+
+}
+
+.image-span {
+    display: inline-flex;
+    align-items: center;
+}
+
+.responsive-image {
+    width: clamp(13px, 2vw, 99px);
+    height: clamp(13px, 2vw, 99px);
+    object-fit: contain;
+}
+
+
+.service-gap {
+    gap: clamp(25px, 6.51vw, 150px);
+    padding-left: clamp(10px, 3.13vw, 70px);
+    padding-right: clamp(10px, 3.13vw, 70px);
+}
+
+.service-image {
+    width: clamp(66px, 20.875vw, 400px);
+    height: clamp(66px, 20.875vw, 400px);
+}
+
+.service-heading {
+    font-size: clamp(10px, 3.125vw, 60px);
+}
+
+.service-body {
+    font-size: clamp(7px, 2.4375vw, 46px);
+    padding-top: clamp(1px, 2vw, 30px);
+    padding-bottom: clamp(1px, 3vw, 50px);
+}
+
+.responsive-button {
+    font-size: clamp(4px, 1.125vw, 22px);
+    gap: clamp(2px, 0.625vw, 12px);
+    padding-top: clamp(2px, 0.625vw, 12px);
+    padding-bottom: clamp(2px, 0.625vw, 12px);
+    padding-left: clamp(5px, 1.5625vw, 30px);
+    padding-right: clamp(5px, 1.5625vw, 30px);
+}
+
+.responsive-arrowsvg {
+    width: clamp(8px, 2vw, 42px);
+    height: auto;
+    /* Maintain aspect ratio */
+    fill: #FFFCE1;
+    /* Consistent fill color as per SVG example */
+}
+
+
+/* service section */
+
+.cta-heading {
+    font-size: clamp(33px, 10.4vw, 200px);
+    line-height: clamp(38px, 12vw, 230px);
+}
+
+.cta-image {
+    width: clamp(55.17px, 17.2vw, 331px);
+    height: auto; /* Maintain aspect ratio */
+  }
+
+
+  .flip-image {
+    transition: transform 0.6s ease-in-out;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-image:hover {
+    transform: rotateX(180deg);
+  }
