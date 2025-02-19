@@ -189,16 +189,16 @@ body,
 }
 
 .responsive-button {
-    font-size: clamp(4px, 1.125vw, 22px);
-    gap: clamp(2px, 0.625vw, 12px);
-    padding-top: clamp(2px, 0.625vw, 12px);
-    padding-bottom: clamp(2px, 0.625vw, 12px);
-    padding-left: clamp(5px, 1.5625vw, 30px);
-    padding-right: clamp(5px, 1.5625vw, 30px);
+    font-size: clamp(6px, 1.125vw, 22px);
+    gap: clamp(3px, 0.625vw, 12px);
+    padding-top: clamp(4px, 0.625vw, 12px);
+    padding-bottom: clamp(4px, 0.625vw, 12px);
+    padding-left: clamp(8px, 1.5625vw, 30px);
+    padding-right: clamp(8px, 1.5625vw, 30px);
 }
 
 .responsive-arrowsvg {
-    width: clamp(8px, 2vw, 42px);
+    width: clamp(12px, 2vw, 42px);
     height: auto;
     /* Maintain aspect ratio */
     fill: #FFFCE1;
