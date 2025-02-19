@@ -198,7 +198,7 @@ body,
 }
 
 .responsive-arrowsvg {
-    width: clamp(12px, 2vw, 42px);
+    width: clamp(10px, 2vw, 42px);
     height: auto;
     /* Maintain aspect ratio */
     fill: #FFFCE1;
@@ -207,6 +207,14 @@ body,
 
 
 /* service section */
+
+.hello-button {
+    font-size: clamp(7px, 1.125vw, 22px);
+    padding-top: clamp(5px, 0.625vw, 12px);
+    padding-bottom: clamp(5px, 0.625vw, 12px);
+    padding-left: clamp(11px, 1.5625vw, 30px);
+    padding-right: clamp(11px, 1.5625vw, 30px);
+}
 
 .cta-heading {
     font-size: clamp(33px, 10.4vw, 200px);
